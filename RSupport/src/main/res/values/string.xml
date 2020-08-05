@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="text_tips_loading">Loading</string>
+    <string name="text_tips_success">Success</string>
+    <string name="text_tips_failure">Failure</string>
+
+    <string name="warn_network_busy">服务器开小差了 (´ω｀。)</string>
+    <string name="code_network_error_400">错误：客户端语法错误</string>
+    <string name="code_network_error_403">错误：服务器拒绝请求</string>
+    <string name="code_network_error_404">错误：无法找到指定位置的资源</string>
+    <string name="code_network_error_500">错误：内部服务器错误</string>
+    <string name="code_network_error_502">错误：网关错误</string>
+    <string name="code_network_error_503">错误：服务器目前无法使用</string>
+    <string name="code_network_error_505">错误：HTTP 版本存在差异</string>
+
+</resources>

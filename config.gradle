@@ -1,0 +1,32 @@
+/**
+ * 全局配置文件
+ */
+ext {
+
+    versions = [
+            applicationID           : 'com.longcai.kemai',
+            versionCode             : 1,
+            versionName             : '1.0.0',
+
+            compileSdkVersion       : 27,
+            buildToolsVersion       : "27.0.3",
+            minSdkVersion           : 17,
+            targetSdkVersion        : 23,
+
+            androidSupportSdkVersion: "27.1.1",
+            constraintLayoutVersion : "1.1.1",
+            runnerVersion           : "1.0.1",
+            espressoVersion         : "3.0.1",
+            junitVersion            : "4.12",
+            annotationsVersion      : "24.0.0",
+            javaSDKVersion          : JavaVersion.VERSION_1_8,
+
+            multidexVersion         : "1.0.3",
+    ]
+
+    dependencies = [
+            // 对方法数超过65536的项目进行分包合包
+            "multidex": "com.android.support:multidex:${versions["multidexVersion"]}",
+    ]
+
+}

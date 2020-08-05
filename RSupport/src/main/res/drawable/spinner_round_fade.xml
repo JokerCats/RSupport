@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@mipmap/spinner_round_fade_00"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/spinner_round_fade_01"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/spinner_round_fade_02"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/spinner_round_fade_03"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/spinner_round_fade_04"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/spinner_round_fade_05"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/spinner_round_fade_06"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/spinner_round_fade_07"
+        android:duration="80" />
+
+</animation-list>
